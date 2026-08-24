@@ -5,6 +5,8 @@ An end-to-end data analysis project covering the full pipeline — from raw data
 ---
 
 ## 📁 Project Structure
+
+```
 food-delivery-analysis/
 │
 ├── data/
@@ -22,6 +24,7 @@ food-delivery-analysis/
 │   └── dashboard_preview.png
 │
 └── README.md
+```
 
 ---
 
@@ -36,15 +39,15 @@ food-delivery-analysis/
 ## 🔄 How to Run This Project
 
 1. **Clean the raw data**
-```bash
+   ```bash
    python python/data_cleaning.py
-```
+   ```
    Reads the raw data file, handles missing values, fixes data types (dates, numerics), removes duplicates, and outputs a cleaned dataset.
 
 2. **Load into MySQL**
-```bash
+   ```bash
    python python/load_to_mysql.py
-```
+   ```
    Creates the `food_delivery_orders` table and loads the cleaned data into a local MySQL instance (`food_delivery_analysis` database).
 
 3. **Run the business analysis queries**
