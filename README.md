@@ -8,18 +8,18 @@ An end-to-end data analysis project covering the full pipeline — from raw data
 food-delivery-analysis/
 │
 ├── data/
-│ └── food_delivery_cleaned_data.xlsx
+│   └── food_delivery_cleaned_data.xlsx
 │
 ├── python/
-│ ├── data_cleaning.py
-│ └── load_to_mysql.py
+│   ├── data_cleaning.py
+│   └── load_to_mysql.py
 │
 ├── sql/
-│ └── food_delivery_business_analysis.sql
+│   └── food_delivery_business_analysis.sql
 │
 ├── visuals/
-│ ├── food_delivery_dashboard.xlsx
-│ └── dashboard_preview.png
+│   ├── food_delivery_dashboard.xlsx
+│   └── dashboard_preview.png
 │
 └── README.md
 
